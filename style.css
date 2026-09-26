@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .hero {
   position: relative;
   background: #825dd2;
@@ -195,7 +198,7 @@ header .nav_links a:hover {
   top: 0%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 26vh;
+  font-size: 20vw;
   text-transform: uppercase;
   font-family: "Anton", sans-serif;
   color: #6a47b4;
@@ -204,7 +207,7 @@ header .nav_links a:hover {
 .credit {
   position: absolute;
   width: 100%;
-  top: 280%;
+  top: 281vh;
   height: 3rem;
   padding-top: 0.8%;
   text-align: center;
